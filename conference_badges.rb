@@ -11,7 +11,7 @@ def batch_badge_creator(names)
   names.each do |name|
     badges << badge_maker(name)
   end
-  badges.to_a
+  badges
 end
 
 def assign_rooms(speakers)
@@ -23,6 +23,7 @@ def assign_rooms(speakers)
 end
 
 def printer(x)
+  i = 0
   puts batch_badge_creator(x)
   puts assign_rooms(x)
 end
