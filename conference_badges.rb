@@ -13,17 +13,21 @@ def batch_badge_creator(names)
   end
   puts badges
 end
-batch_badge_creator(speakers)
+
+# hash = Hash.new
+# %w(cat dog wombat).each_with_index { |item, index|
+#  hash[item] = index
+# }
+# hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
 
 def assign_rooms(speakers)
-  i = 0;
   messages = []
-  speakers.each do |speaker|
+  speakers.each_with_index do |speaker, i|
     messages << "Hello, #{speakers[i]}! You'll be assigned to room #{i+1}!"
-    i += 1
   end
   messages
 end
+assign_rooms(speakers)
 
 def printer(x)
   puts batch_badge_creator(x)
