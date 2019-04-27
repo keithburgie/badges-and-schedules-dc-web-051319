@@ -1,5 +1,4 @@
 #!/usr/bin/ruby
-speakers = ["Edsger","Ada","Charles","Alan", "Grace","Linus","Matz"]
 
 def badge_maker(name)
   "Hello, my name is #{name}."
@@ -30,4 +29,5 @@ def printer(attendees)
   end
 end
 
+speakers = ["Edsger","Ada","Charles","Alan", "Grace","Linus","Matz"]
 printer(speakers)
