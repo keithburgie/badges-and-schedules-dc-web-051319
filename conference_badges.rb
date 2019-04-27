@@ -26,7 +26,6 @@ def printer(x)
   for i in x
     puts batch_badge_creator(x[i])
     puts assign_rooms(x[i])
-    
   end
 end
 printer(speakers)
