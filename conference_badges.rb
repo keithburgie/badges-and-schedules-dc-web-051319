@@ -30,8 +30,8 @@ def printer(x)
 end
 printer(speakers)
 
-def conference_badges(attendees)
-  printer(attendees)
-end
+#def conference_badges(attendees)
+#  printer(attendees)
+#end
 
 
