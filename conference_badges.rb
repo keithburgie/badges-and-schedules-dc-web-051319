@@ -30,7 +30,7 @@ end
 
 def printer(x)
   puts batch_badge_creator(x)
-  #puts assign_rooms(x)
+  puts assign_rooms(x)
 end
 
 printer(speakers)
