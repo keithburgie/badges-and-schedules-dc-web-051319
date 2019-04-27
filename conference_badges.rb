@@ -7,11 +7,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  i = 0
   badges = []
   names.each do |name|
     badges << badge_maker(name)
-    #i += 1
   end
   puts badges
 end
