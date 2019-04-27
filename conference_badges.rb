@@ -11,9 +11,9 @@ def batch_badge_creator(names)
   badges = []
   names.each do |name|
     badges << badge_maker(name)
-    i += 1
+    #i += 1
   end
-  puts badges.chomp
+  puts badges
 end
 batch_badge_creator(speakers)
 
