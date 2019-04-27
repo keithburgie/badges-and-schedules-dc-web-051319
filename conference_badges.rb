@@ -28,7 +28,7 @@ def printer(x)
 end
 
 def conference_badges(attendees)
-  printer(attendees)
+  puts printer(attendees)
 end
 
 
